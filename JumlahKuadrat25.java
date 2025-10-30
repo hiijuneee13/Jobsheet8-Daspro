@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class JumlahKuadrat25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Masukkan nilai n = ");
+        System.out.print("Nilai n = ");
         int n = sc.nextInt();
         int total = 0;
         for (int i = 1; i <= n; i++) {
@@ -11,9 +11,9 @@ public class JumlahKuadrat25 {
                 kuadrat += i;
             }
             total += kuadrat;
-            System.out.printf("i = %d, i^2 = %d, jumlah sementara = %d%n", i, kuadrat, total);
+            System.out.printf("i = %d -> Jumlah kuadrat = %d%n", i, kuadrat, total);
         }
-        System.out.println("Jumlah kuadrat 1 s.d " + n + " = " + total);
+        System.out.println("Jumlah kuadrat 1 sampai " + n + " = " + total);
         sc.close();
     }
 }
