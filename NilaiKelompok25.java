@@ -8,7 +8,7 @@ public class NilaiKelompok25 {
         double rataNilai, totalNilai;
         double highestRata = 0;
         int nomorKelompokTertinggi = 0;
-        while (i <= JUMLAH_KELOMPOK) {
+        while (i <= 6) {
             System.out.println("Kelompok " + i);
             totalNilai = 0;
             for (int j = 1; j <= 5; j++) {
